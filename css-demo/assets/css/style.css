@@ -1,4 +1,29 @@
 /*------CSS Demo------*/
-body{
-    background-color:lightgray;
-}
+/* Red:  #D94A56
+Yellow: #D9D162
+Goldenrod: #8C7F3F
+Gray: #A6918D
+Eggshell: #F2DCD8
+ */
+
+/* ------- Box Sizing -------*/
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* ------ Global Styles ------*/
+
+  body {
+    background-color: black;
+    font-family: "Playfair Display", serif;
+    color: #FFFFFF;
+    }
+
+    header.primary{
+
+    }
