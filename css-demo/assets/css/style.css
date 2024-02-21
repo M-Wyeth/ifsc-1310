@@ -2,8 +2,8 @@
 /* Red:  #D94A56
 Yellow: #D9D162
 Goldenrod: #8C7F3F
-Gray: #A6918D
-Eggshell: #F2DCD8
+Gray: #6b6260
+Eggshell: #f3e1dd
  */
 
 /* ------- Box Sizing -------*/
@@ -18,12 +18,63 @@ html {
 
   /* ------ Global Styles ------*/
 
-  body {
-    background-color: black;
-    font-family: "Playfair Display", serif;
-    color: #FFFFFF;
+    body {
+      background-color: #6b6260;
+      font-family: "Playfair Display", serif;
+      color: #f3e1dd;
+      margin:0;
     }
 
     header.primary{
+      background-color: #6b6260;
+      text-align: center;
+      padding: 20px 0px;
+    }
 
+    header.primary .hgroup h1{
+      font-size: 2rem;
+    }
+
+    header.primary h1 a{
+      color: #D9D162;
+      text-decoration: none;
+    }
+
+    header.primary h2{
+      margin: 0;
+      color: #D9D162;
+    }
+
+    header.primary nav{
+      margin: 20px auto;
+    }
+
+    header.primary ul{
+      padding:0;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+    }
+    header.primary ul li{
+      list-style-type: none;
+    }
+
+    header.primary nav a{
+      color:  #D9D162;
+      text-decoration: none;
+      background-color:#5a532e;
+      background-color:rgba(0,0,0,.4);
+
+      padding: 5px 10px;
+      border-radius: 20px;
+      border: 1px solid #D94A56;
+      transition: .2s;
+    }
+
+    header.primary nav a:hover{
+      background-color: rgba(0,0,0,.8);
+    }
+
+    section.container h2,h3,a{
+      color: #D9D162;
     }
