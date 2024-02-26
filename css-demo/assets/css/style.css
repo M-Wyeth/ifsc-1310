@@ -16,6 +16,19 @@ html {
     box-sizing: inherit;
   }
 
+  /*-------Responsive Image-----*/
+
+  img{
+    max-width:100%;
+  }
+
+  /*--------Utility Classes-----*/
+  .container{
+    max-width: 960px;
+    width: 80vw;
+    margin:40px auto;
+  }
+
   /* ------ Global Styles ------*/
 
     body {
@@ -55,6 +68,7 @@ html {
       flex-direction: row;
       justify-content:space-around;
     }
+
     header.primary ul li{
       list-style-type: none;
     }
@@ -77,4 +91,78 @@ html {
 
     section.container h2,h3,a{
       color: #D9D162;
+    }
+
+    #content{
+      line-height: 2;
+    }
+
+    #content h2{
+      border-bottom:4px solid #D94A56
+    }
+
+    #content h3{
+      border-left: 5px double #D94A56;
+      padding: 7.5px; 
+    }
+
+    #blog {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap:5%;
+    }
+
+    #blog .post{
+      box-shadow: 3px 3px 5px 7px rgba(217,74,86,1);
+      padding:10px;
+      border-radius: 5px;
+      transition: .4s;
+    }
+
+    #blog figure{
+      margin:0;
+    }
+
+    #blog figcaption{
+      color: #8C7F3F;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    #blog header{
+      padding-top: 10px;
+      font-size: .7rem;
+    }
+
+    #blog header h2{
+      margin:0;
+    }
+
+    #blog .post:hover{
+      box-shadow: 15px 10px 14px 7px rgba(217,74,86,1); 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:600px) {
+      header.primary ul{
+        flex-direction: column;
+        gap:20px;
+        max-width:250px;
+        margin:auto;
+      }
+
+      header.primary nav a{
+        display: block;
+      }
     }
