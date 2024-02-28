@@ -1,3 +1,31 @@
 body{
     background-color:gray;
 }
+
+body h1{
+    color:midnightblue;
+    text-align: center;
+}
+
+body ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+
+
+body li a{
+    border:2px solid black;
+    background-color: rgba(223, 211, 211, 0.5);
+    border-radius: 2rem;
+    padding: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+body li :hover{
+    background-color: rgba(223, 211, 211, 1);
+}
