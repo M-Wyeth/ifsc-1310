@@ -56,6 +56,11 @@ html {
       font-family: "Playfair Display", serif;
       color: #f3e1dd;
       margin:0;
+      /*background-image: url("../img/"); need to find an image
+      background-repeat: repeat-x
+      background-size: contain;
+      */
+     
     }
 
     header.primary{
@@ -155,7 +160,7 @@ html {
     #blog figcaption{
       color: #8C7F3F;
       text-transform: capitalize;
-      text-align: center;
+      text-align: left;
     }
 
     #blog header{
