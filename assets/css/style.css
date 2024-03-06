@@ -7,25 +7,21 @@ body h1{
     text-align: center;
 }
 
-body ul{
-    list-style-type: none;
+#assignments{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
- 
+    flex-direction: column;
 }
 
 
-body li a{
+#assignments li{
     border:2px solid black;
     background-color: rgba(223, 211, 211, 0.5);
     border-radius: 2rem;
     padding: 10px;
-    text-decoration: none;
-    transition: .5s;
+    list-style-type: none;
 }
 
-body li :hover{
-    background-color: rgba(223, 211, 211, 1);
+.lab h2{
+    color: midnightblue;
 }
+
