@@ -57,6 +57,10 @@ header.primary nav{
     border-top: 2px solid #D94A56;
  }
 
+ #articles h2{
+    text-align: center;
+}
+
  #articles .post{
     box-shadow: 3px 3px 5px 7px skyblue;
       padding:10px;
@@ -65,9 +69,16 @@ header.primary nav{
       margin: 1rem 0;
  }
 
+ #articles .post:hover{
+    box-shadow: 3px 3px 5px 7px skyblue;
+ }
  #articles img{
     
     max-width: fit-content;
     max-height: 200px;
     align-self: center;
+ }
+
+ footer{
+    background-color: skyblue;
  }
