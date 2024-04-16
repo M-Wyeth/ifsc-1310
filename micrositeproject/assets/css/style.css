@@ -41,15 +41,18 @@ header.primary nav{
     transition: .2s;
   }
 
-  section.container{
+  #content{
     background-color: skyblue;
     padding: 20px;
   }
-
+  
+  #content h2{
+    text-align: center;
+  }
  #articles{
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap:5%;
     padding: 2rem 0;
@@ -64,8 +67,7 @@ header.primary nav{
  #articles .post{
     box-shadow: 3px 3px 5px 7px skyblue;
       padding:10px;
-      border-radius: 5px;
-      transition: .4s;
+      border-radius: 20px;
       margin: 1rem 0;
  }
 
@@ -73,7 +75,8 @@ header.primary nav{
     box-shadow: 3px 3px 5px 7px skyblue;
  }
  #articles img{
-    
+    display: block;
+    margin: auto;
     max-width: fit-content;
     max-height: 200px;
     align-self: center;
