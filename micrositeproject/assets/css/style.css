@@ -1,21 +1,17 @@
+img{
+    max-width: 100%;
+    height:auto;
+}
 header{
     background-image: url("../img/banner.jpg");
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
-header h1{
-    text-align: center;
-}
-
-header h2{
-    text-align: center;
-    margin:100px;
-}
 header.primary nav{
-    margin: 20px auto;
+    padding-top: 100px;
   }
 
   header.primary ul{
@@ -42,4 +38,36 @@ header.primary nav{
 
   header.primary nav a:hover{
     background-color: gray;
+    transition: .2s;
   }
+
+  section.container{
+    background-color: skyblue;
+    padding: 20px;
+  }
+
+ #articles{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:5%;
+    padding: 2rem 0;
+    border-bottom: 2px solid #D94A56;
+    border-top: 2px solid #D94A56;
+ }
+
+ #articles .post{
+    box-shadow: 3px 3px 5px 7px skyblue;
+      padding:10px;
+      border-radius: 5px;
+      transition: .4s;
+      margin: 1rem 0;
+ }
+
+ #articles img{
+    
+    max-width: fit-content;
+    max-height: 200px;
+    align-self: center;
+ }
