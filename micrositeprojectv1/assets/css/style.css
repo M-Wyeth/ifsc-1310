@@ -32,7 +32,7 @@ header.primary nav{
 
     padding: 5px 10px;
     border-radius: 20px;
-    border: 1px solid skyblue;
+    border: 1px solid #D94A56;
     transition: .2s;
   }
 
@@ -41,9 +41,16 @@ header.primary nav{
     transition: .2s;
   }
 
+  #content img{
+    display: block;
+    margin: auto;
+    align-self: center;
+  }
+
   #content{
     background-color: skyblue;
     padding: 20px;
+    margin:auto;
   }
   
   #content h2{
@@ -84,4 +91,5 @@ header.primary nav{
 
  footer{
     background-color: skyblue;
+    padding: 20px;
  }
