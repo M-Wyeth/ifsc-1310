@@ -8,7 +8,7 @@ $(document).ready(function() {
       slide: 'div',
       cssEase: 'linear',
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 3000,
       pauseonhover: true
     });
 
